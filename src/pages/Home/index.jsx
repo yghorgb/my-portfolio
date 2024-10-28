@@ -12,20 +12,21 @@ export const Home = () => {
   return (
     <Container>
       <NavBar>
-        <a href="#">About</a>
-        <a href="#">Skills</a>
-        <a href="#">Projects</a>
+        <a href="#hero">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
       </NavBar>
-      <Hero>
+      <Hero id="hero">
         <img src="https://github.com/yghorgb.png" alt="avatar" />
         <h2>Yghor Gabriel</h2>
         <span>Eu sou um Desenvolvedor Front-End</span>
         <Button>Baixar CV</Button>
         <Button>Contato</Button>
       </Hero>
-      <Skills></Skills>
-      <Projects></Projects>
-      <About></About>
+      <Skills id="skills"></Skills>
+      <Projects id="projects"></Projects>
+      <About id="about"></About>
     </Container>
   );
 };
